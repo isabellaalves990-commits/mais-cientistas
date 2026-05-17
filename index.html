@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mais Cientistas</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mais Cientistas</h1>
+    <p>Valorizando as mulheres na ciência brasileira 💜</p>
+  </header>
+
+  <nav>
+    <a href="#antigas">Cientistas Antigas</a>
+    <a href="#atuais">Cientistas Atuais</a>
+    <a href="#tecnicos">Cursos Técnicos</a>
+    <a href="#superiores">Cursos Superiores</a>
+    <a href="#curiosidades">Curiosidades</a>
+  </nav>
+
+  <!-- PRIMEIRA PARTE -->
+  <section id="antigas">
+    <h2>Primeiras Cientistas do Brasil</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="C:\maiscientistas\imagem\imagem1.png">
+        <h3>Bertha Lutz</h3>
+        <p>Pioneira da ciência e dos direitos das mulheres no Brasil.</p>
+      </div>
+
+      <div class="card">
+        <img src="C:\maiscientistas\imagem\imagem3.png">
+        <h3>Nise da Silveira</h3>
+        <p>Revolucionou os tratamentos psiquiátricos no país.</p>
+      </div>
+
+      <div class="card">
+        <img src="C:\maiscientistas\imagem\imagem2.png">
+        <h3>Marta Vannucci</h3>
+        <p>Importante pesquisadora da biologia marinha.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEGUNDA PARTE -->
+  <section id="atuais">
+    <h2>Cientistas da Atualidade</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Jaqueline_Goes_de_Jesus.jpg">
+        <h3>Jaqueline Goes</h3>
+        <p>Sequenciou o coronavírus no Brasil.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Natalia_Pasternak.jpg">
+        <h3>Natália Pasternak</h3>
+        <p>Grande divulgadora científica brasileira.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Maydana_Zatz.jpg">
+        <h3>Mayana Zatz</h3>
+        <p>Referência mundial em genética.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TERCEIRA PARTE -->
+  <section id="tecnicos">
+    <h2>Cursos Técnicos</h2>
+
+    <button onclick="mostrarTecnico()">Ver Cursos Técnicos</button>
+
+    <div id="cursosTecnicos" class="escondido">
+      <ul>
+        <li>Técnico em Biotecnologia</li>
+        <li>Técnico em Química</li>
+        <li>Técnico em Meio Ambiente</li>
+        <li>Técnico em Informática</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- QUARTA PARTE -->
+  <section id="superiores">
+    <h2>Cursos Superiores</h2>
+
+    <button onclick="mostrarSuperior()">Ver Cursos Superiores</button>
+
+    <div id="cursosSuperiores" class="escondido">
+      <ul>
+        <li>Biologia</li>
+        <li>Química</li>
+        <li>Física</li>
+        <li>Medicina</li>
+        <li>Engenharia</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- QUINTA PARTE -->
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+
+    <button onclick="mostrarCuriosidade()">Mostrar Curiosidade</button>
+
+    <p id="curio"></p>
+  </section>
+
+  <footer>
+    <p>Site desenvolvido sobre mulheres na ciência 💜</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

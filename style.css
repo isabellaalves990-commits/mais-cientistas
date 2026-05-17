@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#f4f6fb;
+}
+
+header{
+  background:#7b2cbf;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+
+header h1{
+  font-size:50px;
+}
+
+nav{
+  background:white;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+nav a{
+  text-decoration:none;
+  background:#7b2cbf;
+  color:white;
+  padding:10px 15px;
+  border-radius:20px;
+}
+
+section{
+  padding:60px 10%;
+}
+
+h2{
+  text-align:center;
+  color:#7b2cbf;
+  margin-bottom:30px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:15px;
+}
+
+.card h3{
+  margin-top:15px;
+  color:#7b2cbf;
+}
+
+button{
+  display:block;
+  margin:20px auto;
+  padding:12px 20px;
+  border:none;
+  background:#7b2cbf;
+  color:white;
+  border-radius:15px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  background:#5a189a;
+}
+
+.escondido{
+  display:none;
+}
+
+ul{
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  max-width:500px;
+  margin:auto;
+}
+
+li{
+  margin:10px 0;
+}
+
+#curio{
+  text-align:center;
+  margin-top:20px;
+  font-size:20px;
+  color:#5a189a;
+}
+
+footer{
+  background:#5a189a;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
